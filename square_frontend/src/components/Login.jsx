@@ -30,8 +30,9 @@ const Login = () => {
                  type="button"
                  classsName="bg-white flex justify-center items-center p-3 rounded-lg cursor-pointer outline-none"
                   onClick={renderProps.onClick}
+                  disabled={renderProps.disabled}
                 >
-                 <FcGoogle className="mr-4" /> Sign in with Google 
+                 <FcGoogle className="mr-4" />Sign in with Google 
                 </button>
               )}
             />
